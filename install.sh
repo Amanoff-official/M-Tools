@@ -20,6 +20,10 @@ echo -e "\033[0;31m Cryptography alynýar"
 echo
 pkg install python-cryptography
 echo
+echo -e "\033[0;31m Pycryptodome alynýar"
+echo
+pip install pycryptodome 
+echo
 echo -e "\033[0;31m Update edilýär"
 echo
 pkg update
@@ -29,3 +33,4 @@ echo
 pkg upgrade
 echo
 echo -e "\033[0;33m Skripte gerekli zatlar üstinlikli alyndy! Skripty işletmek üçin python MTools.py"
+echo -e "\033[0;33m ⚠️Eger pycryptodome alynmasa käbir kodlar işlemez⚠️"
