@@ -24,4 +24,6 @@ pkg install git && git clone https://github.com/Amanoff-official/M-Tools && cd M
 1. NetMod Syna (.nm)
 2. OpenTunnel (.tnl)
 3. PB Injector (.pb)
-3. ZIV VPN (.ziv)
+4. ZIV VPN (.ziv)
+5. ARMOD VPN (ar-??)
+6. SSH HOST (host:port@username:password)
