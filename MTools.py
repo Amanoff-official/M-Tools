@@ -22,8 +22,8 @@ MTools = """
 
 Abox = """
 =============================================================
-* Düwüp bilýän faýllary : .nm / .tnl / .pb / .ziv
-* Coded By              : 𝑨𝒎𝒂𝒏𝒐𝒇𝒇 𝑶𝒇𝒇𝒊𝒄𝒊𝒂𝒍
+* Düwüp bilýän faýllary : .nm / .tnl / .pb / .ziv / ar-??
+* Ýasan                 : 𝑨𝒎𝒂𝒏𝒐𝒇𝒇 𝑶𝒇𝒇𝒊𝒄𝒊𝒂𝒍
 * Telegram              : t.me/Official_amanoff
 =============================================================\nBuýrugy saýlaň : 
 """
@@ -37,6 +37,8 @@ def menu():
     print(" [2.] OpenTunnel")
     print(" [3.] PB Injector")
     print(" [4.] ZIV VPN")
+    print(" [5.] ARMOD VPN")
+    print(" [6.] SSH HOST")
     print(" [0.] Skript-dan çykmak üçin")
 
     choice = input("\n ~~> ")
@@ -65,6 +67,10 @@ def main():
             run_script_nodejs("M/PB.js")
         elif choice == "4":
             run_script_nodejs("M/ZIV.js")
+        elif choice == "5":
+            run_script_python("M/AR.py")
+        elif choice == "6":
+            run_script_python("M/SSH.py")
         elif choice == "0":
             os.system('clear')
             print("Skript öçürildi. \nTäze moduly ullananyňyz üçin sagboluň! \n- H.Z.M DEV TEAM - \n")
